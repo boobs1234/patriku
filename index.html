@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFuturo - Sustentabilidade</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f9f4;
+            color: #333;
+        }
+
+        header {
+            background: #2e8b57;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                        url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 50px 10%;
+        }
+
+        h2 {
+            color: #2e8b57;
+            margin-bottom: 20px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            flex: 1;
+            min-width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #2e8b57;
+            margin-bottom: 10px;
+        }
+
+        .tips ul {
+            margin-left: 20px;
+        }
+
+        .contact {
+            background: #e8f5e9;
+            border-radius: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input, textarea {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #2e8b57;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background: #246b45;
+        }
+
+        footer {
+            background: #2e8b57;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌱 EcoFuturo</h1>
+        <p>Construindo um planeta mais sustentável</p>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#dicas">Dicas</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Juntos por um futuro verde</h2>
+        <p>Pequenas ações hoje transformam o mundo de amanhã.</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>
+            A EcoFuturo promove iniciativas sustentáveis voltadas à preservação
+            ambiental, reciclagem, energia renovável e educação ecológica.
+        </p>
+    </section>
+
+    <section id="projetos">
+        <h2>Nossos Projetos</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>🌳 Reflorestamento</h3>
+                <p>Plantio de árvores em áreas degradadas para recuperar ecossistemas.</p>
+            </div>
+
+            <div class="card">
+                <h3>♻️ Reciclagem</h3>
+                <p>Campanhas educativas para incentivar a coleta seletiva.</p>
+            </div>
+
+            <div class="card">
+                <h3>☀️ Energia Limpa</h3>
+                <p>Incentivo ao uso de fontes renováveis como solar e eólica.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="dicas" class="tips">
+        <h2>Dicas Sustentáveis</h2>
+        <ul>
+            <li>Reduza o consumo de plástico descartável.</li>
+            <li>Economize água e energia elétrica.</li>
+            <li>Utilize transporte sustentável sempre que possível.</li>
+            <li>Separe corretamente os resíduos recicláveis.</li>
+            <li>Prefira produtos de origem sustentável.</li>
+        </ul>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Entre em Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea rows="5" placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 EcoFuturo - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
